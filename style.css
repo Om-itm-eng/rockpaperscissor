@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: honeydew;
+}
+#outdiv{
+    background-color: aquamarine;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 430px; 
+    border: 2px solid black;
+   
+}
+.indiv{
+    height: 40%;
+    width: 30%;
+    display: inline-block ;
+    position: relative;
+    top: 30px;
+    border: 2px solid black;
+   background-color: antiquewhite;
+   box-shadow: 2px 2px 3px black;
+
+}
+#score{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 430px; 
+    text-align: left;
+}
+
+#vs{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 430px;
+   
+}
+ div h3{
+    display: flex;
+ }
+
+ div div:active{
+    box-shadow: none;
+ }
